@@ -1,0 +1,563 @@
+
+.test img{
+    width: 100%;
+    height: 100%;
+}
+.check a img{
+    width: 100%;
+    height: 400px;
+}
+.package{
+    margin-top: 50px;
+}
+.centered {
+  color: #333;  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hedimage img{
+    width: 100%;
+    height: 400px;
+}
+.hedimage p {
+ padding-bottom: 10px;
+}
+.style{
+    font-family: "futurs-bold";
+}
+.style h1{
+    margin-top: 100px;
+    font-family: "futurs-bold";
+}
+.style p{
+    font-family: "futurs-bold";
+}
+.style img{
+    width: 100%px; height: 404px;
+}
+.style h3,h2,h4,h5,h6{
+   font-family: "futurs-bold"; 
+}
+.styles{
+    text-align: center;
+    font-size: 40px;
+   
+}
+.styles img{
+   
+
+}
+.styleh p img{
+ margin:10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.border{
+    border: 2px solid ;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+.border img{
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  color: #ddd;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: #000;
+}
+
+.next {
+  background-color: #f1f1f1;
+  color: #000;
+}
+
+.round {
+  border-radius: 50%;
+}
+.borders{
+    border: 2px solid ;
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+}
+.padding h1{
+    margin-top: 100px;
+}
+.padding img {
+width: 300px;
+height: 200px;
+}
+.titleh{
+    margin-top: 50px;
+    border:2px solid;
+    width: 100%;
+    height: 100%;
+}
+.titleh img{
+   margin-top:15px;
+    margin-bottom: 15px;
+    padding-right: 20px;
+
+}
+.titleh a{ 
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 2px;
+}
+.titleh button{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-bottom: 20px;
+}
+.titleh p{
+    color: #fff;
+}
+.photo img{
+    width: 100%;
+    height: 100px;
+    /*padding:0 !important;*/
+    margin: 0px !important;
+}
+body {}
+
+body h1,
+h2,
+h3,
+h4 {
+    font-family: "Rokkitt", Georgia, serif;
+}
+
+header {
+    width: 100%
+    height: 100px;
+}
+
+header {
+    height: 90px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* nav */
+
+.nav-menu {
+    /*background-color: rgb(255, 255, 255);*/
+    z-index:1000000;
+    background-color: #333;
+}
+
+.logo {
+    font-size: 35px;
+    color: red;
+}
+
+.list-item a {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.line1,
+.line2,
+.line3 {
+    width: 20px;
+    height: 3px;
+    margin: 2px;
+    border: 2px solid black;
+}
+
+/* end of nav */
+
+/* banner */
+
+.banner {
+    height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("../img/background/home.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    ;
+}
+
+/* 
+@media(max-width:576px) {
+    .banner {
+        color: white;
+        margin-top: 35%;
+    }
+} */
+
+.header-line {
+    text-align: center;
+    margin-left: 10%;
+}
+
+.sentence {
+    text-align: center;
+    margin: auto;
+}
+
+/* vertical slide */
+
+.slidingVertical {
+    display: inline;
+    margin-bottom: 50px;
+    margin-left: auto;
+    background-color: #00abe9;
+    text-align: center;
+    text-indent: 8px;
+}
+
+.slidingVertical h4 {
+    /* background-color: blue; */
+    left: 10%;
+    width: 80%;
+    margin-left: auto;
+    animation: topToBottom 8s linear infinite 0s;
+    -ms-animation: topToBottom 8s linear infinite 0s;
+    -webkit-animation: topToBottom 8s linear infinite 0s;
+    color: #0c19ca;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+}
+
+@media(max-width:999px) {
+    .slidingVertical h4 {
+        font-size: 45px;
+    }
+}
+
+@media(max-width:768px) {
+    .slidingVertical h4 {
+        font-size: 32px;
+    }
+}
+
+.slidingVertical h4:nth-child(2) {
+    animation-delay: 2.7s;
+    -ms-animation-delay: 2.7s;
+    -webkit-animation-delay: 2.7s;
+}
+
+.slidingVertical h4:nth-child(3) {
+    animation-delay: 5s;
+    -ms-animation-delay: 5s;
+    -webkit-animation-delay: 5s;
+}
+
+@-webkit-keyframes topToBottom {
+    0% {
+        opacity: 0;
+    }
+    5% {
+        opacity: 0;
+        -webkit-transform: translateY(-0px);
+    }
+    10% {
+        opacity: 1;
+        -webkit-transform: translateY(0px);
+    }
+    25% {
+        opacity: 1;
+        -webkit-transform: translateY(0px);
+    }
+    30% {
+        opacity: 0;
+        -webkit-transform: translateY(0px);
+    }
+    /* 80% {
+        opacity: 0;
+    } */
+    100% {
+        opacity: 0;
+    }
+}
+
+/* End of verticalslide */
+
+/* End of banner */
+
+/* Sub banner */
+
+.sub-banner {}
+
+.sub-container {
+    width: 70%;
+    margin: auto;
+}
+
+.world,
+.activity,
+.gwalior {
+    display: flex;
+}
+
+.globe,
+.user,
+.branch {
+    margin-right: 20px;
+    font-size: 45px;
+}
+
+.paragraph {
+    margin-top: 30px;
+    font-size: 14px;
+    font-family: "Rokkitt", Georgia, serif;
+}
+
+/* End of sub banner */
+
+/* aboutus  */
+
+.aboutus {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("../img/background/background5.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slidingVertical2 {
+    display: inline;
+    margin-bottom: 50px;
+    margin-left: auto;
+    background-color: #00abe9;
+    text-align: center;
+    text-indent: 8px;
+}
+
+.about-heading {
+    font-size: 35px;
+}
+
+.sliding-pera {
+    text-align: center;
+}
+
+.slidingVertical2 p {
+    font-size: 18px;
+    /* background-color: blue; */
+    left: 10%;
+    word-spacing: 1px;
+    width: 80%;
+    margin-left: auto;
+    animation: aboutus-anim 6s linear infinite 3s;
+    -ms-animation: aboutus-anim 6s linear infinite 3s;
+    -webkit-animation: aboutus-anim 6s linear infinite 3s;
+    color: white;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+}
+
+.slidingVertical2 p span {
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+@-webkit-keyframes aboutus-anim {
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0;
+        -webkit-transform: translateY(-0px);
+    }
+    /* 10% {
+        opacity: 1;
+        -webkit-transform: translateY(0px);
+    } */
+    50% {
+        opacity: 1;
+        -webkit-transform: translateY(0px);
+    }
+    /* 30% {
+        opacity: 0;
+        -webkit-transform: translateY(0px);
+    } */
+    75% {
+        opacity: 0;
+        -webkit-transform: translateY(0px);
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* sub banner end  */
+
+/* blog */
+
+.blogpost-part {
+    width: 90%;
+    margin-left: auto !important;
+}
+
+.blogpost {
+    display: flex;
+}
+
+@media(max-width:992px) {
+    .blogpost {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:992px) {
+    .blogpost .part1 {
+        width: 100%;
+    }
+    .blogpost .part1 .post1 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+.blog-pera {
+    text-align: justify;
+}
+
+/* End of blog */
+
+/* video section */
+
+.video {
+    background-color: rgb(216, 216, 216);
+}
+
+/* End of video section */
+
+/* supporter */
+
+.supporter {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("../img/background/background2.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* End of supporter */
+
+/* footer */
+
+.icon {
+    margin-top: 10px;
+}
+
+.icon i {
+    font-size: 25px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    animation: 2s;
+    color: blue;
+}
+
+.icon i:hover {
+    color: red;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /*background-color: #f1f1f1;*/
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1400px;
+  margin: auto;
+}
+
+h5 {
+  font-size: 15px;
+  bottom: 0px;
+  
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 0px;
+  height: 400px;
+ 
+}
+.content img{ width:100%; height: 300px;
+
+}
+.headr{
+  font-size: 30px;
+  font-weight: bold;
+  padding: 35px;
+  background-color: white;
+  margin-top: 80px;
+}
+.headr h1{
+  font-weight: bold;
+
+
+}
+
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+  
+
+/* end of footer */
